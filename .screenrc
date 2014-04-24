@@ -1,0 +1,15 @@
+altscreen on
+
+#chdir $HOME/machine_learning/8
+chdir $HOME/i2p
+screen -t "C shell" 
+
+screen -t "Octave" 
+
+screen -t "Generic"
+
+screen -t "One more"  
+select 1
+
+hardstatus alwayslastline
+hardstatus string '%{= kG}[ %{G}%H %{g}][%= %{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%{B} %m-%d %{W}%c %{g}]'
