@@ -1,4 +1,6 @@
-shell "/bin/bash"
+# putting a - before $SHELL gives your a colored terminal
+shell -$SHELL
+# shell "/bin/bash"
 chdir $HOME
 
 screen -t "1" 
