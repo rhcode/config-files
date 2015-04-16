@@ -3,10 +3,10 @@ shell -$SHELL
 # shell "/bin/bash"
 chdir $HOME
 
-screen -t "1" 
-screen -t "2" 
-screen -t "3"
-screen -t "4"  
+screen -t "zero" 
+screen -t "one" 
+screen -t "two"
+screen -t "three"  
 select 1
 
 # Use showkey -a to check which key maps to what value
